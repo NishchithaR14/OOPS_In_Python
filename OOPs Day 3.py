@@ -1,4 +1,3 @@
-# Parent class
 class Book:
     def __init__(self, title, author):
         self.title = title
@@ -8,8 +7,6 @@ class Book:
         print("Book Title:", self.title)
         print("Author:", self.author)
 
-
-# Child class 
 class IssuedBook(Book):
     def __init__(self, title, author, issued_to, issued_date):
         super().__init__(title, author) 
