@@ -19,5 +19,4 @@ class IssuedBook(Book):
         print("Issued Date:", self.issued_date)
 
 book1 = IssuedBook("Python Programming","Guido van Rossum","Nishchitha R","03-02-2026")
-
 book1.display_issued_book_details()
